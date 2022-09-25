@@ -188,3 +188,22 @@ a {
     position: static;
   }
 }
+@media (max-width: 576px){
+  h1{
+    font-size: 10vw;
+  }
+  .modify-title-container{
+    text-align: center;
+  }
+  .download-button{
+      max-width: 30vw;
+    }
+  .ipad-iphone{
+    position: static;
+    max-width: 60vw;
+    display: none;
+  }
+  .features-section{
+    position: static;
+  }
+}
